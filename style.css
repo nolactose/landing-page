@@ -4,4 +4,41 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+}
+
+.main1 {
+    display: flex;
+}
+
+.main2 {
+    display: flex;
+}
+
+.main3 {
+    display: flex;
+}
+
+.main4 {
+    display: flex;
 }
