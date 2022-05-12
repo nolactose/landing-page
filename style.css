@@ -1,20 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font: Roboto, sans-serif;
+    font-family: Lato, sans-serif;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
+    padding: 0px 40px;
+    color: #f9faf8;
+    align-items: center;
+    font-size: 24px;
 }
 
-.ul {
-    list-style: none;
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 a {
@@ -25,6 +31,16 @@ a {
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 12px;
+    color: #f9faf8;
+}
+
+.content {
+    display: flex;
+    flex: 1;
 }
 
 .main1 {
